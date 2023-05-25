@@ -25,6 +25,7 @@ body{
     padding: 30px;
     border-radius: 8%;
     box-shadow: 3px 3px 1px 0px  #00000070;
+    width: 400px;
 }
 
 h1{
@@ -68,8 +69,7 @@ h1{
 }
 
 .label-float input:focus + label,
-.label-float input:valid + label
-{
+.label-float input:valid + label{
     font-size: 13px;
     margin-top: 0;
     color: #403Ba0;
@@ -98,30 +98,6 @@ button:hover{
     display: flex;
     justify-content: center;
 
-}
-
-hr{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 60%;
-}
-
-p{
-    color: #272262;
-    font-size: 14px;
-    text-align: center;
-}
-
-a{
-    color: #7a3077;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .3s ease-out;
-}
-
-a:hover{
-    color: #272262;
-    
 }
 
 .fa-eye{
